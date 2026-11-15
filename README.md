@@ -88,7 +88,7 @@ Seat Occupancy(승객석 점유), ACCEL/BRAKE 페달(속도), Steering Angle, Tu
 
 ### A. APK로 바로 설치
 ```powershell
-& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" install -r --user 10 apk\woojoo_부드러움지수_release.apk
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" install -r --user 10 apk\Team_WooJoo_부드러움지수_release.apk
 ```
 
 ### B. 소스에서 빌드
@@ -132,9 +132,9 @@ CSV 컬럼: `time_s, speed_kmh, steering_deg(좌회전 = 음수), turn_signal(OF
 ## APK 파일 위치
 
 ```
-apk/woojoo_부드러움지수_release.apk
+apk/Team_WooJoo_부드러움지수_release.apk
 ```
-- 저장소 경로: [`apk/woojoo_부드러움지수_release.apk`](apk/woojoo_부드러움지수_release.apk) (약 15MB — GitHub 업로드 용량 이내라 Releases 미사용)
+- 저장소 경로: [`apk/Team_WooJoo_부드러움지수_release.apk`](apk/Team_WooJoo_부드러움지수_release.apk) (약 15MB — GitHub 업로드 용량 이내라 Releases 미사용)
 - 패키지: `com.example.woojoo_1` · versionName 1.0 (versionCode 1)
 - **release 빌드** (R8 축소·최적화 끔 — 켜면 실행 즉시 `IllegalAccessError`로 종료되는 것을 확인, `app/build.gradle.kts` 주석 참고)
 - debug 전용 기능(DEBUG 패널, adb 제어)은 release에서 자동으로 꺼집니다. 재생 모드는 **설정**에서 그대로 사용할 수 있습니다.
