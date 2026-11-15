@@ -1,0 +1,23 @@
+# ── 빌드 산출물 ──
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+.gradle
+.kotlin
+
+# ── 로컬 환경 (PC마다 다름) ──
+local.properties
+*.iml
+.idea/
+.DS_Store
+.claude/
+
+# ── 서명 키 (절대 커밋 금지) ──
+keystore.properties
+*.jks
+*.keystore
+
+# ── 로그 ──
+*.log

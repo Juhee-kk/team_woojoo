@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">부드러움 지수</string>
+    <string name="app_tagline">오늘도 부드럽게 달려볼까요?</string>
+
+    <string name="unit_point">점</string>
+    <string name="button_certificate">운행 승차감 증명서 발급</string>
+    <string name="restricted_hint">정차 중에만 증명서를 발급할 수 있어요</string>
+    <string name="button_settings">설정</string>
+
+    <string name="status_waiting_first">승객을 기다리고 있어요</string>
+    <string name="status_waiting_next">다음 승객을 기다리고 있어요</string>
+    <string name="status_waiting_body">승객이 앉으면 자동으로 운행기록을 시작하고,\n내리면 직전운행의 \'부드러움 지수\'를 측정해드려요.</string>
+    <string name="status_no_seat_body">좌석 점유 센서를 사용할 수 없어 운행을 자동으로 나눌 수 없어요.</string>
+    <string name="status_driving">운행 기록 중이에요</string>
+    <string name="status_driving_body">화면을 보지 않아도 기록돼요. 승객이 내리면 결과를 알려드릴게요.</string>
+    <string name="status_analyzing">부드러움 지수 계산 중…</string>
+    <string name="status_analyzing_body">잠시만 기다려 주세요.</string>
+
+    <string name="replay_start">재생 시작 (승객 탑승)</string>
+    <string name="settings_title">운행 데이터 선택</string>
+
+    <string name="cert_title">운행 승차감 증명서</string>
+    <string name="cert_back">← 돌아가기</string>
+    <string name="cert_share">증명서 공유</string>
+    <string name="cert_missing">발급할 운행 기록이 없어요</string>
+
+    <string name="pdf_open">PDF 열기</string>
+    <string name="pdf_saved">📁 차량 다운로드 폴더에 저장됨</string>
+    <string name="pdf_making">PDF 증명서를 만드는 중…</string>
+    <string name="pdf_done">PDF 증명서를 발급했어요</string>
+    <string name="pdf_failed">PDF를 만들지 못했어요. 다시 시도해 주세요.</string>
+</resources>

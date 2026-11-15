@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 주간 모드 · 택시 옐로. 텍스트 대비 4.5:1 이상 (Pleos 디자인 가이드) -->
+    <color name="bg">#FFFFFBEB</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_alt">#FFFFF4CC</color>
+    <color name="text_primary">#FF1F1D1A</color>
+    <color name="text_secondary">#FF5C5649</color>
+    <color name="divider">#FFF0E6C4</color>
+    <color name="track">#FFF2EBD3</color>
+
+    <!-- accent: 택시 노랑 (버튼·배경 채움용) / accent_ink: 밝은 바탕 위 강조 글자용 -->
+    <color name="accent">#FFFFC629</color>
+    <color name="on_accent">#FF1F1D1A</color>
+    <color name="accent_ink">#FF7A5200</color>
+    <color name="accent_soft">#FFFFF0B3</color>
+    <color name="accent_disabled">#FFE6DDC0</color>
+    <color name="peach">#FFFFE89A</color>
+
+    <color name="grade_excellent">#FF13795B</color>
+    <color name="grade_smooth">#FF2563C9</color>
+    <color name="grade_normal">#FFA35F00</color>
+    <color name="grade_poor">#FFC7362B</color>
+    <color name="on_grade">#FFFFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
